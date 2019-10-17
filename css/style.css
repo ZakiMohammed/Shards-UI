@@ -1,0 +1,19 @@
+.container-banner {
+    padding: 200px 0 200px;
+}
+.container-big {
+    padding: 100px 0 100px;
+}
+.progress {
+    
+}
+
+#about .lead {
+    padding: 0 200px;
+}
+
+@media (max-width: 991px) {
+    #about .lead {
+        padding: 0;
+    }   
+}
