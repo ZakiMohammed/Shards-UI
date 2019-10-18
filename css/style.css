@@ -4,8 +4,14 @@
 .container-big {
     padding: 100px 0 100px;
 }
-.progress {
-    
+.progress-big {
+    margin-bottom: 2px;
+}
+.progress-big, .progress-big .progress-bar {
+    height: 45px;
+}
+.progress-big .progress-bar {
+    font-size: 16px;
 }
 
 #about .lead {
@@ -16,4 +22,27 @@
     #about .lead {
         padding: 0;
     }   
+}
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 4;
+    }
 }
