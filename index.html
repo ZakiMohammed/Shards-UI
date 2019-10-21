@@ -31,14 +31,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/shards.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/pattern.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
-<body>
+<body class="bg-floating-cogs" data-spy="scroll" data-target="#navbar" data-offset="0">
 
     <!-- navbar -->
-    <nav id="navbar" class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-light bg-transparent fixed-top">
         <a class="navbar-brand" href="#"><b>Master<span class="text-primary">fax</span> Enterprises</b></a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,10 +68,7 @@
                     <a class="nav-link" href="#clients">Clients</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Dealers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -82,7 +82,7 @@
                     <h1 class="text-center display-4">
                         <b>Master<span class="text-primary">fax</span> Enterprises</b>
                     </h1>
-                    <h5 id="litFeature" class="text-muted text-center" style="min-height: 25px; display: block;"></h5>
+                    <h4 id="litFeature" class="text-muted text-center" style="min-height: 35px; display: block;"></h4>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
     </div>
 
     <!-- services -->
-    <div id="services" class="container-big">
+    <div id="services" class="container-big bg-white">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -208,7 +208,7 @@
     </div>
 
     <!-- skills -->
-    <div id="skills" class="container-big">
+    <div id="skills" class="container-big bg-white">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -247,157 +247,63 @@
     </div>
 
     <!-- client -->
-    <div id="clients" class="container-big bg-primary">
+    <div id="clients" class="container-big">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="text-center text-white mb-5">Our Clients</h2>
+                    <h2 class="text-center mb-5">Our Clients</h2>
                 </div>
             </div>
-            <div id="clientArray" class="card-columns">
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Jaffer Bhai's Delhi Darbar</a>
-                        </h5>
+            <div id="clientArray" class="row">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- dealers -->
+    <div id="dealers" class="bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="owl-carousel"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="container-big bg-dark text-white bg-floating-cogs">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center text-white mb-5">Contact</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="card">
+                        <iframe class="rounded"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2786.1747534293963!2d72.82754804545145!3d18.967105892758003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6e6b2e24d141231e!2sMasterfax%20Enterprises!5e0!3m2!1sen!2sin!4v1571640176012!5m2!1sen!2sin"
+                            width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Dudhwala Builders</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">SRD Logistics Pvt. Ltd</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">MH Saboo Siddik Hospital</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">D.G.C Excise Intelligence</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">YMCA</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Persian Darbar Hotel</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Sardar Pav Bhaji (Tardeo)</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Akbar Peerbhoy College</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Brite Industries</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Sahil Hotel (Mumbai Central)</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Deeniyat</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Anuradha Mangal Kariyaley</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Kalsekar Hospital</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Baitun Nas'r</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">Anjuman Islam Sobani Hostel</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">BSNL - Mumbai</a>
-                        </h5>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="#">SIM Enterprises</a>
-                        </h5>
-                    </div>
+                <div class="col-sm-3">
+                    <address class="mt-4 mt-sm-0">
+                        <strong>Address</strong><br>
+                        #48, 1st Floor<br>
+                        Kedy Shopping Center,<br>
+                        233/234, Bellasis Road,<br>
+                        Mumbai - 400 008.<br>
+                        India
+                    </address>
+                    <address>
+                        <strong>Phone</strong><br>
+                        +91-22-23097728, <br>+91-9967515475
+                    </address>
+                    <address>
+                        <strong>Email</strong><br>
+                        info@masterfax.in
+                    </address>
                 </div>
             </div>
         </div>
@@ -405,10 +311,12 @@
 
     <!-- js -->
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/shards.min.js"></script>
     <script src="js/typed.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script>
         $(function () {
             new Typed('#litFeature', {
@@ -448,19 +356,117 @@
             let html = '';
             clients.forEach(client => {
                 html += `
-                    <div class="card">                        
-                        <img class="card-img-top" src="https://dummyimage.com/400x200/e9ecef/000000" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="#">${client}</a>
-                            </h5>
-                        </div>                        
-                    </div>`;
+                    <div class="col-sm-6 mb-4">
+                        <div class="card">                        
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    ${client}
+                                </h5>
+                            </div>                        
+                        </div>
+                    </div>
+                    `;
             });
-            // $('#clientArray').html(html);
+            $('#clientArray').html(html);
 
+            let dealers = [
+                "access.jpg",
+                "battery1.jpg",
+                "battery2.jpg",
+                "battery3.jpg",
+                "cctv1.jpg",
+                "cctv2.jpg",
+                "cctv3.jpg",
+                "cctv4.jpg",
+                "fax1.jpg",
+                "fax2.jpg",
+                "fax3.jpg",
+                "light.jpg",
+                "printer1.jpg",
+                "printer2.jpg",
+                "ups1.jpg",
+                "ups2.jpg",
+                "ups3.jpg",
+                "ups4.jpg"
+            ];
 
-        });
+            html = '';
+            dealers.forEach(dealer => {
+                html += `<img src="imgs/dealers/${dealer}" class="img-fluid img-dealer">`;
+            });
+
+            $(".owl-carousel").html(html);
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                responsiveClass: true,
+                autoplay: true,
+                dots: false,
+                autoplayTimeout: 1500,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 6
+                    }
+                }
+            });
+
+            $('a.nav-link').bind('click', function (event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1000);
+                event.preventDefault();
+            });
+
+            // Highlight the top nav as scrolling occurs
+            $('body').scrollspy({
+                target: '#navbar'
+            });
+
+            // Closes the Responsive Menu on Menu Item Click
+            $('.navbar-collapse ul li a').click(function () {
+                if ($('.navbar-collapse').hasClass('show')) {
+                    $('.navbar-collapse').removeClass('show');
+                    $('.navbar-toggler').addClass('collapsed');
+                } else {
+                    $('.navbar-collapse').addClass('show');
+                    $('.navbar-toggler').removeClass('collapsed');
+                }
+            });
+
+            $('.navbar-toggler').click(function () {
+                if ($('#navbar').hasClass('bg-white')) {
+                    let scroll = $('.nav-link.active').text();
+                    if (scroll === 'Home') {
+                        $('#navbar').removeClass('bg-white');
+                        $('#navbar').addClass('bg-transparent');   
+                    }                    
+                } else {
+                    $('#navbar').removeClass('bg-transparent');
+                    $('#navbar').addClass('bg-white');
+                }
+            });
+
+            $(window).on('activate.bs.scrollspy', function () {
+                let scroll = $('.nav-link.active').text();
+                let speed = 500;
+                let easing = 'swing';
+
+                if (scroll !== 'Home') {
+                    $('#navbar').removeClass('bg-transparent', speed, easing);
+                    $('#navbar').addClass('bg-white', speed, easing);
+                } else {
+                    $('#navbar').addClass('bg-transparent', speed, easing);
+                    $('#navbar').removeClass('bg-white', speed, easing);
+                }
+            });
+
+        });         
     </script>
 
 </body>
